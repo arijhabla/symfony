@@ -1,0 +1,59 @@
+{% extends 'back.html.twig' %}
+
+{% block content %}
+<center>
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <strong class="card-title">Voici les données de note N:° : {{ note.id }}</strong>
+            </div>
+            <div class="card-body">
+                <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ note.id }}</td>
+            </tr>
+            <tr>
+                <th>Ideleve</th>
+                <td>{{ note.idEleve.id }}</td>
+            </tr>
+            <tr>
+                <th>Idexamen</th>
+                <td>{{ note.idExamen.id }}</td>
+            </tr>
+            <tr>
+                <th>Idmatiere</th>
+                <td>{{ note.idMatiere.nomMatiere }}</td>
+            </tr>
+            <tr>
+                <th>Note</th>
+                <td>{{ note.note }}</td>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <td>{% if note.date %}{{ note.date|date('Y-m-d') }}{% endif %}</td>
+            </tr>
+        </tbody>
+                </table>
+
+                <center>
+                    <ul style="list-style-type: none;">
+                        <br>
+
+                        <li >
+                            {{ form_start(delete_form) }}
+                            <a href="{{ path('note_index') }}" class="btn btn-outline-secondary" >Retour à la liste</a>
+
+                            <a href="{{ path('note_edit', { 'id': note.id }) }}" class="btn btn-outline-warning" >Modifier</a>
+
+
+                            <input type="submit" value="Supprimer" class="btn btn-outline-danger">
+                            {{ form_end(delete_form) }}
+                        </li>
+
+                    </ul>
+                </center>
+            </div></div></div></center>
+{% endblock %}
+

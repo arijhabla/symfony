@@ -1,0 +1,50 @@
+{% extends 'back.html.twig' %}
+
+{% block content %}
+    <center>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <strong class="card-title">Voici les données de l'examen N:° : {{ examan.id }}</strong>
+                </div>
+                <div class="card-body">
+                    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ examan.id }}</td>
+            </tr>
+            <tr>
+                <th>Idmatiere</th>
+                <td>{{ examan.idMatiere.nomMatiere }}</td>
+            </tr>
+            <tr>
+                <th>Dateexamen</th>
+                <td>{% if examan.dateExamen %}{{ examan.dateExamen|date('Y-m-d') }}{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Coefficient</th>
+                <td>{{ examan.coefficient }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <center>
+        <ul style="list-style-type: none;">
+            <br>
+
+            <li >
+                {{ form_start(delete_form) }}
+                <a href="{{ path('examen_index') }}" class="btn btn-outline-secondary" >Retour à la liste</a>
+
+                <a href="{{ path('examen_edit', { 'id': examan.id }) }}" class="btn btn-outline-warning" >Modifier</a>
+
+
+                <input type="submit" value="Supprimer" class="btn btn-outline-danger">
+                {{ form_end(delete_form) }}
+            </li>
+
+        </ul>
+    </center>
+    </div></div></div></center>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'back.html.twig' %}
+
+{% block content %}
+    <center>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <strong>Ajouter un examen</strong>
+                </div>
+                <div class="card-body card-block">
+
+                    {{ form_start(form) }}
+                    {{ form_widget(form) }}
+                    <br>
+                    <input type="submit" value="Create" class="btn btn-success btn-lg btn-block" />
+                    {{ form_end(form) }}
+
+                    <br>
+
+                    <center>
+                        <ul style="list-style-type: none;">
+                            <li>
+                                <a href="{{ path('examen_index') }}" class="btn btn-outline-secondary">Retour à la liste</a>
+                            </li>
+                        </ul>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </center>
+{% endblock %}
+

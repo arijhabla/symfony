@@ -1,0 +1,92 @@
+{% extends 'back.html.twig' %}
+
+  {% block content %}
+
+      <div class="breadcrumbs">
+          <div class="breadcrumbs-inner">
+              <div class="row m-0">
+                  <div class="col-sm-4">
+                      <div class="page-header float-left">
+                          <div class="page-title">
+                              <h1>Dashboard</h1>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-8">
+                      <div class="page-header float-right">
+                          <div class="page-title">
+                              <ol class="breadcrumb text-right">
+                                  <li><a href="#">Dashboard</a></li>
+                                  <li><a href="#">Table</a></li>
+                                  <li class="active">Liste des notes</li>
+                              </ol>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="content">
+          <div class="animated fadeIn">
+              <div class="row">
+
+                  <div class="col-md-12">
+                      <div class="card">
+                          <div class="card-header">
+                              <strong class="card-title">Liste des notes</strong>
+                          </div>
+                          <div class="card-body">
+                              <table id="bootstrap-data-table" class="table table-striped table-bordered">
+
+                                  <thead>
+                                  <tr>
+                                      <th>Id</th>
+                                      <th>idEleve</th>
+                                      <th>idExamen</th>
+                                      <th>NomMatiere</th>
+                                      <th>note</th>
+                                      <th>date</th>
+                                      <th>Actions</th>
+                                  </tr>
+                                  </thead>
+        <tbody>
+        {% for note in notes %}
+            <tr>
+                <td><a href="{{ path('note_show', { 'id': note.id }) }}">{{ note.id }}</a></td>
+                <td>{{ note.idEleve.id }}</td>
+                <td>{{ note.idExamen.id }}</td>
+                <td>{{ note.idMatiere.nomMatiere }}</td>
+                <td>{{ note.note }}</td>
+                <td>{% if note.date %}{{ note.date|date('Y-m-d') }}{% endif %}</td>
+                <td>
+
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <a href="{{ path('note_show', { 'id': note.id }) }}" class="btn btn-primary btn-sm">Consulter</a>
+                            <a href="{{ path('note_edit', { 'id': note.id }) }}" class="btn btn-success btn-sm">Modifier</a>
+                        </li>
+
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <center>
+        <ul style="list-style-type: none;">
+            <li>
+                <a href="{{ path('note_new') }}" class="btn btn-outline-primary btn-lg btn-block" style="width: 30%">Créer une nouvelle note</a>
+            </li>
+        </ul>
+    </center>
+    </div>
+    </div>
+    </div>
+
+
+    </div>
+    </div><!-- .animated -->
+    </div><!-- .content -->
+
+{% endblock %}

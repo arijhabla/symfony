@@ -1,0 +1,57 @@
+{% extends 'back.html.twig' %}
+
+{% block content %}
+    <center>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <strong class="card-title">Voici les données de la calendrier_ex N:° : {{ calandrier_ex.id }}</strong>
+                </div>
+                <div class="card-body">
+                    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ calandrier_ex.id }}</td>
+            </tr>
+            <tr>
+                <th>Idexamen</th>
+                <td>{{ calandrier_ex.idExamen.id }}</td>
+            </tr>
+            <tr>
+                <th>Idmatiere</th>
+                <td>{{ calandrier_ex.idMatiere.nomMatiere }}</td>
+            </tr>
+            <tr>
+                <th>Idsalle</th>
+                <td>{{ calandrier_ex.idSalle.id }}</td>
+            </tr>
+            <tr>
+                <th>Idclasse</th>
+                <td>{{ calandrier_ex.idClasse.id }}</td>
+            </tr>
+            <tr>
+                <th>Dateex</th>
+                <td>{% if calandrier_ex.dateEx %}{{ calandrier_ex.dateEx|date('Y-m-d') }}{% endif %}</td>
+            </tr>
+        </tbody>
+    </table>
+    <center>
+        <ul style="list-style-type: none;">
+            <br>
+
+            <li >
+                {{ form_start(delete_form) }}
+                <a href="{{ path('calandrier_ex_index') }}" class="btn btn-outline-secondary" >Retour à la liste</a>
+
+                <a href="{{ path('calandrier_ex_edit', { 'id': calandrier_ex.id }) }}" class="btn btn-outline-warning" >Modifier</a>
+
+
+                <input type="submit" value="Supprimer" class="btn btn-outline-danger">
+                {{ form_end(delete_form) }}
+            </li>
+
+        </ul>
+    </center>
+    </div></div></div></center>
+{% endblock %}

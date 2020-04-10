@@ -1,0 +1,50 @@
+{% extends 'backComp.html.twig' %}
+{% block content %}
+    <center>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <strong class="card-title">Voici les données de conge N:° : {{ conge.id }}</strong>
+                </div>
+                <div class="card-body">
+                    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ conge.id }}</td>
+            </tr>
+            <tr>
+                <th>Id Employe</th>
+                <td>{{ conge.idEmploye.id }}</td>
+            </tr>
+            <tr>
+                <th>Datedebut</th>
+                <td>{% if conge.dateDebut %}{{ conge.dateDebut|date('Y-m-d') }}{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Datefin</th>
+                <td>{% if conge.dateFin %}{{ conge.dateFin|date('Y-m-d') }}{% endif %}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <center>
+        <ul style="list-style-type: none;">
+            <br>
+
+            <li >
+                {{ form_start(delete_form) }}
+                <a href="{{ path('conge_index') }}" class="btn btn-outline-secondary" >Retour à la liste</a>
+
+                <a href="{{ path('conge_edit', { 'id': conge.id }) }}" class="btn btn-outline-warning" >Modifier</a>
+
+
+                <input type="submit" value="Supprimer" class="btn btn-outline-danger">
+                {{ form_end(delete_form) }}
+            </li>
+
+        </ul>
+    </center>
+    </div></div></div></center>
+{% endblock %}
+
