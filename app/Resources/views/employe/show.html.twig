@@ -1,0 +1,66 @@
+{% extends 'back.html.twig' %}
+
+{% block content %}
+<center>
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <strong class="card-title">Voici les données de l'employe N:° : {{ employe.id }}</strong>
+            </div>
+            <div class="card-body">
+                <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ employe.id }}</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ employe.nom }}</td>
+            </tr>
+            <tr>
+                <th>Prenom</th>
+                <td>{{ employe.prenom }}</td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td>{{ employe.age }}</td>
+            </tr>
+            <tr>
+                <th>Role</th>
+                <td>{{ employe.role }}</td>
+            </tr>
+            <tr>
+                <th>Nbrheure</th>
+                <td>{{ employe.nbrHeure }}</td>
+            </tr>
+            <tr>
+                <th>Prime</th>
+                <td>{{ employe.prime }}</td>
+            </tr>
+            <tr>
+                <th>Salaire</th>
+                <td>{{ employe.salaire }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+                <center>
+                    <ul style="list-style-type: none;">
+                        <br>
+
+                        <li >
+                            {{ form_start(delete_form) }}
+                            <a href="{{ path('employe_index') }}" class="btn btn-outline-secondary" >Retour à la liste</a>
+
+                            <a href="{{ path('employe_edit', { 'id': employe.id }) }}" class="btn btn-outline-warning" >Modifier</a>
+
+
+                            <input type="submit" value="Supprimer" class="btn btn-outline-danger">
+                            {{ form_end(delete_form) }}
+                        </li>
+
+                    </ul>
+                </center>
+            </div></div></div></center>
+{% endblock %}

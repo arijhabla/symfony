@@ -1,0 +1,18 @@
+{% extends "@FOSUser/layout.html.twig" %}
+{% block title  %}nouveau condidat{% endblock %}
+    {% block text %} <br> création d une candidature {% endblock%}
+
+{% block content %}
+    <br>
+<center>
+    <br>
+
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <input type="submit" value="S'inscrire"  class="dsX701"/>
+    {{ form_end(form) }}
+
+    <br>
+
+</center>
+{% endblock %}
