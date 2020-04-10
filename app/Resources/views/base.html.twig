@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}Home{% endblock %}</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('cssf/reset.css') }}" >
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('cssf/grid_12.css') }}" >
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('cssf/style.css') }}" >
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('cssf/slider.css') }}" >
+    <link href='http://fonts.googleapis.com/css?family=Lato:300italic' rel='stylesheet' type='text/css'>
+    <script src="{{ asset('jsf/jquery-1.7.min.js') }}" ></script>
+    <script src="{{ asset('jsf/jquery.easing.1.3.js') }}"></script>
+    <script src="{{ asset('jsf/cufon-yui.js') }}" ></script>
+    <script src="{{ asset('jsf/cufon-replace.js') }}" ></script>
+    <script src="{{ asset('jsf/Bilbo_400.font.js') }}" ></script>
+    <script src="{{ asset('jsf/tms-0.4.1.js') }}" ></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider')._TMS({
+                show:0,
+                pauseOnHover:true,
+                prevBu:false,
+                nextBu:false,
+                playBu:false,
+                duration:800,
+                preset:'fade',
+                pagination:true,
+                pagNums:false,
+                slideshow:7000,
+                numStatus:false,
+                banners:'fade',
+                waitBannerAnimation:false,
+                progressBar:false
+            })
+        });
+    </script>
+    <style>
+        .dsX700 {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .dsX701 {
+            width: 50%;
+            background-color: #ff9000;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        dsX701:hover {
+            background-color: #45a049;
+        }
+
+        .divX700 {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+<body>z
+{% block header %}
+<header>
+    <div>
+        <div>
+            <h1><a href="index.html"><img src="{{ asset('images/easychool.png') }}" alt=""></a></h1>
+            <nav>
+                <ul class="menu">
+                    <li class="current"><a href="{{ asset('/') }}">Home</a></li>
+
+                    {% if is_granted('ROLE_USER') %}
+
+                        <li><a href="{{ asset('calandrier_ex/front') }}">Calendrier des Examens </a></li>
+                        <li><a href="{{ asset('affectation/front')}}">Emploi du temps </a></li>
+
+                        {%  if (app.user.eleve == NULL) and (app.user.employe == NULL)  %}
+                            <li><a href="{{ asset('club/front')}}">Nos Clubs</a></li>
+                            <li><a href="{{ asset('condidat/new') }}">Condidature</a></li>
+
+                        {%  elseif app.user.eleve != NULL %}
+                            <li><a href="{{ asset('club/front')}}">Nos Clubs</a></li>
+                            <li><a href="{{ path('note_front', { 'id': app.user.id }) }}">Notes</a></li>
+                        <li><a href="{{ path('absence_front', { 'id': app.user.id }) }}">Absences</a></li>
+                        <li><a href="{{ path('bulletin_front', { 'id': app.user.id }) }}">Bulletin</a></li>
+
+                        {% elseif app.user.employe != NULL %}
+                        <li><a href="{{ path('reunion_front', { 'id': app.user.id }) }}">Reunions</a></li>
+                            <li><a href="{{ path('reclamation_front', { 'id': app.user.id }) }}">Reclamations</a></li>
+                        {% endif %}
+                        <li><a href="{{path('fos_user_security_logout')}}">Se Déconnecter</a></li>
+                    {% else %}
+                        <li><a href="{{ asset('login') }}">S'identifier</a></li>
+                        <li><a href="{{ asset('register') }}">S'inscrire</a></li>
+                    {% endif %}
+
+
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+    </div>
+</header>
+{% endblock %}
+
+
+
+    <!--==============================content================================-->
+    <section id="content"></div>
+        <div class="container_12">
+            <div class="grid_6 box-1">
+
+            </div>
+            <div class="grid_6 box-1">
+
+            </div>
+            <div class="grid_12 box-2">
+                <div>
+                    <p class="text-3">Bienvenue sur le site de notre Ecole <span> EasyChool</span>!</p>
+                    <p class="text-4">{% block text %}  {% endblock%}</p>
+                </div>
+            </div>
+            <div class="grid_12">
+                {% block content %}
+
+                {% endblock %}
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </section>
+
+<!--==============================footer=================================-->
+<footer>
+    <p>© 2012 Start-Up<br> Website Template by <a class="link" href="http://store.templatemonster.com?aff=netsib1" target="_blank" rel="nofollow">www.templatemonster.com</a></p>
+    <div class="soc-icons"><span>Follow Us:</span><a href="#"><img src="{{ asset('images/icon-1.jpg ')}}" alt=""></a><a href="#"><img src="{{ asset('images/icon-2.jpg')}}" alt=""></a><a href="#"><img src="{{ asset('images/icon-3.jpg')}}" alt=""></a></div>
+</footer>
+</body>
+</html>
