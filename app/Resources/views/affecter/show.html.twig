@@ -1,0 +1,47 @@
+{% extends 'back.html.twig' %}
+
+{% block content %}
+<center>
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <strong class="card-title">Voici les données d Affectation N:° : {{ affecter.id }}</strong>
+            </div>
+            <div class="card-body">
+                <table class="table">
+
+                <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ affecter.id }}</td>
+            </tr>
+            <tr>
+                <th>Nomclub</th>
+                <td>{{ affecter.nomClub.nom }}</td>
+            </tr>
+            <tr>
+                <th>Nomevenement</th>
+                <td>{{ affecter.nomEvenement.nom }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+                <center>
+                    <ul style="list-style-type: none;">
+                        <br>
+
+                        <li >
+                            {{ form_start(delete_form) }}
+                            <a href="{{ path('affecter_index') }}" class="btn btn-outline-secondary" >Retour à la liste</a>
+
+                            <a href="{{ path('affecter_edit', { 'id': affecter.id }) }}" class="btn btn-outline-warning" >Modifier</a>
+
+
+                            <input type="submit" value="Supprimer" class="btn btn-outline-danger">
+                            {{ form_end(delete_form) }}
+                        </li>
+
+                    </ul>
+                </center>
+            </div></div></div></center>
+{% endblock %}
