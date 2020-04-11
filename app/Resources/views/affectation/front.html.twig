@@ -1,0 +1,115 @@
+{% extends 'base.html.twig' %}
+      {% block text %} Emploi du temps {% endblock%}
+
+ {% block content %}
+     <style>
+         @import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,500,300,200,100,800);
+
+         body{
+             font-family: 'Raleway', sans-serif;
+         }
+
+         .big-price span{
+             color: #333;
+             font-size:40px;
+         }
+
+         .btn-price{
+             background-color:#5db4c0;
+             color: #fff;
+             border-radius:50%;
+             border:none;
+             padding:40px 20px;
+             font-size: 13px;
+             font-weight: 600;
+             margin-top:20px;
+         }
+
+         .prices-box{
+             margin:50px 0px;
+         }
+
+         .top-content{
+             background-color:#4d4d4d;
+             padding:20px;
+         }
+
+         .bottom-content{
+             background-color:#f6f6f6;
+             padding:60px;
+         }
+
+         #prices h3{
+             color:#FFF;
+         }
+
+         #prices .features li{
+             padding:10px;
+         }
+
+         #prices .btn.btn-default{
+             margin:20px 0px;
+         }
+
+         #prices .features-border li{
+             border-top:1px solid #c7c7c7;
+             padding: 10px 0px;
+         }
+
+         #prices .features-border li:last-child{
+             border-bottom:1px solid #c7c7c7;
+         }
+
+     </style>
+     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+     <section id="prices">
+
+         <div class="container">
+             <br>
+             <center>
+                 <p class="text-3" > Trier par Classe</p>
+             <form method="POST">
+                <input type="text"  name="status" class="dsX700">
+                 <input type="submit" class="dsX701" value="Chercher" style="width: 15%" >
+                 <a href="{{ asset('affectation/front')}}"><input type="button" value="Voir Tout" class="dsX701" style="width: 15%"></a>
+             </form>
+             </center>
+
+             <div class="prices-box">
+                 <div class="row">
+
+                     {% for affectation in affectations %}
+
+                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 price-table aos-init aos-animate" data-aos="fade-up">
+
+                             <div class="top-content text-center">
+
+                                 <div class="title">
+                                     <h3>Classe : {{ affectation.nomClasse.niveau }}</h3>
+                                 </div>
+
+                             </div>
+
+                             <div class="bottom-content text-center">
+                                 <ul class="features-border list-unstyled">
+                                     <li>Id Salle :{{ affectation.idSalle.id }}</li>
+                                     <li>Matiere :{{ affectation.nomMat.nomMatiere }}</li>
+                                     <li>Date :{% if affectation.date %}{{ affectation.date|date('Y-m-d') }}{% endif %}</li>
+                                     <li>Heure :{{ affectation.heure }}</li>
+                                 </ul>
+
+                             </div>
+
+                         </div>
+
+                     {% endfor %}
+
+
+
+                 </div>
+             </div>
+
+         </div>
+     </section>
+ {% endblock %}

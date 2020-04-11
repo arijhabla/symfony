@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4dffee2-e2e2-4e3b-8cf7-31d97b3f9ec1" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="s doctrine:schema:update --force " />
+      <command text="s doctrine:generate:entity " />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s server:run " />
+      <command text="s generate:bundle" />
+      <command text="s server:run " />
+      <command text="s generate:bundle" />
+      <command text="s doctrine:generate:entity " />
+      <command text="VoitureBundle:Voiture" />
+      <command text="s doctrine:generate:entity " />
+      <command text="Voiture" />
+      <command text="s doctrine:database:create" />
+      <command text="s doctrine:generate:entity " />
+      <command text="s doctrine:database:create" />
+      <command text="s doctrine:generate:entity " />
+      <command text="matricule" />
+      <command text="s doctrine:generate:entity " />
+      <command text="s doctrine:schema:update" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s doctrine:generate:form VoitureBundle:Chauffeur" />
+      <command text="s server:run " />
+      <command text="s generate:controller" />
+      <command text="s doctrine:generate:entities VoitureBundle:Chauffeur" />
+      <command text="s server:run " />
+      <command text="s generate:bundle" />
+    </commandsHistory>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1XhwAgx8xOsDEK1OMT65jAA6Avo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="settings.editor.splitter.proportion" value="0.2375297" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\moo\src\AppBundle\Resources\views" />
+      <recent name="C:\wamp64\www\test\src\Esprit\TestBundle\Resources\views\Test" />
+      <recent name="C:\wamp64\www\test\src\Esprit\TestBundle\Resources\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\moo\app\Resources\views\reclamation" />
+      <recent name="C:\wamp64\www\moo\app\Resources\views\conge" />
+      <recent name="C:\wamp64\www\moo\app\Resources\views\reunion" />
+      <recent name="C:\wamp64\www\moo\app\Resources\views\employe" />
+      <recent name="C:\wamp64\www\moo\app\Resources\views\bulletin" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="s doctrine:generate:entities" />
+      <command value="s doctrine:generate:form AppBundle:User" />
+      <command value="s doctrine:generate:crud EleveBundle:Eleve" />
+      <command value="s doctrine:generate:crud EleveBundle:Bulletin" />
+      <command value="s doctrine:generate:crud EleveBundle:Absence" />
+      <command value="s doctrine:generate:crud EmploiBundle:Affectation" />
+      <command value="s doctrine:generate:crud EmploiBundle:Classe" />
+      <command value="s doctrine:generate:crud EmploiBundle:Matiere" />
+      <command value="s doctrine:generate:crud EmploiBundle:Salle" />
+      <command value="s doctrine:generate:crud RHBundle:Condidat" />
+      <command value="s doctrine:generate:crud RHBundle:Employe" />
+      <command value="s doctrine:generate:crud RHBundle:Reunion" />
+      <command value="s doctrine:generate:crud ClubBundle:Club" />
+      <command value="s doctrine:generate:crud ClubBundle:Evenement" />
+      <command value="s doctrine:generate:crud ClubBundle:Membre" />
+      <command value="s doctrine:generate:crud ClubBundle:Affecter" />
+      <command value="s doctrine:generate:crud ExamenBundle:Examen" />
+      <command value="s doctrine:generate:crud ExamenBundle:Calandrier_ex" />
+      <command value="s doctrine:generate:crud ExamenBundle:Note" />
+      <command value="s generate:bundle" />
+      <command value="s doctrine:generate:entities EleveBundle:Eleve" />
+      <command value="s doctrine:generate:entities ClubBundle:Membre" />
+      <command value="s doctrine:generate:entities ExamenBundle:Examen" />
+      <command value="s doctrine:generate:entities ExamenBundle:Calandrier_ex" />
+      <command value="s doctrine:generate:entities RHBundle:Condidat" />
+      <command value="s doctrine:generate:entities AppBundle:User" />
+      <command value="s doctrine:generate:entity" />
+      <command value="s doctrine:generate:crud CompBundle:Conge" />
+      <command value="s doctrine:generate:crud CompBundle:Reclamation" />
+      <command value="s doctrine:generate:crud CompBundle:Paiement" />
+      <command value="s doctrine:generate:entities CompBundle:Conge" />
+      <command value="s doctrine:generate:entities CompBundle:Paiement" />
+      <command value="c dump-autoload" />
+      <command value="s generate:controller" />
+      <command value="s doctrine:generate:entities ExamenBundle:Note" />
+      <command value="s doctrine:generate:entities EmploiBundle:Affectation" />
+      <command value="s doctrine:generate:entities ClubBundle:Affecter" />
+      <command value="s doctrine:generate:entities EleveBundle:Absence" />
+      <command value="s doctrine:generate:entities EleveBundle:Bulletin" />
+      <command value="s doctrine:generate:entities RHBundle:Reunion" />
+      <command value="s doctrine:generate:entities RHBundle:Employe" />
+      <command value="s doctrine:generate:entities CompBundle:Reclamation" />
+      <command value="s doctrine:database:drop" />
+      <command value="s doctrine:database:drop --force" />
+      <command value="s doctrine:schema:update --force" />
+      <command value="s doctrine:database:create" />
+      <command value="s doctrine:schema:create" />
+      <command value="s doctrine:schema:update" />
+      <command value="s server:run" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4dffee2-e2e2-4e3b-8cf7-31d97b3f9ec1" name="Default" comment="" />
+      <created>1572388872783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572388872783</updated>
+      <workItem from="1572388873955" duration="1985000" />
+      <workItem from="1572515934955" duration="1114000" />
+      <workItem from="1572557041875" duration="5887000" />
+      <workItem from="1572699781623" duration="6039000" />
+      <workItem from="1572966120050" duration="6768000" />
+      <workItem from="1573142531109" duration="451000" />
+      <workItem from="1573143008605" duration="4163000" />
+      <workItem from="1573163866169" duration="2409000" />
+      <workItem from="1573663098928" duration="30000" />
+      <workItem from="1573666372779" duration="316000" />
+      <workItem from="1573666750231" duration="1095000" />
+      <workItem from="1573685596255" duration="1132000" />
+      <workItem from="1573743844373" duration="598000" />
+      <workItem from="1573748844177" duration="75000" />
+      <workItem from="1575729816217" duration="7048000" />
+      <workItem from="1575832045258" duration="473000" />
+      <workItem from="1575885458370" duration="344000" />
+      <workItem from="1575886465600" duration="23000" />
+      <workItem from="1576934606870" duration="256000" />
+      <workItem from="1576934883879" duration="165000" />
+      <workItem from="1581508041876" duration="806000" />
+      <workItem from="1581511495209" duration="136000" />
+      <workItem from="1584975636617" duration="1085000" />
+      <workItem from="1584976779103" duration="21543000" />
+      <workItem from="1585054863338" duration="26489000" />
+      <workItem from="1585147869860" duration="29400000" />
+      <workItem from="1585244226126" duration="23674000" />
+      <workItem from="1585276050276" duration="614000" />
+      <workItem from="1585330768414" duration="11805000" />
+      <workItem from="1585351073408" duration="1070000" />
+      <workItem from="1585404118592" duration="5192000" />
+      <workItem from="1586103963239" duration="3678000" />
+      <workItem from="1586215083432" duration="5541000" />
+      <workItem from="1586604307099" duration="600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="684" y="162" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585187014645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="684" y="162" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585187014645" />
+    <state x="493" y="292" key="ComposerCompositePathDialog" timestamp="1584976836371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="493" y="292" key="ComposerCompositePathDialog/0.0.1536.824@0.0.1536.824" timestamp="1584976836371" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1585408331037">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585408331037" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586355832040">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586355832040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586355832040">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586355832040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586355832039">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586355832039" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586355832040">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586355832040" />
+    <state x="558" y="228" key="NewPhpClassDialog" timestamp="1584976561641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="558" y="228" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1584976561641" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1584976852281">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584976852281" />
+    <state x="613" y="316" key="SymfonyPathDialog" timestamp="1584976849748">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="613" y="316" key="SymfonyPathDialog/0.0.1536.824@0.0.1536.824" timestamp="1584976849748" />
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1586604307019">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586604307019" />
+    <state x="398" y="109" width="740" height="606" key="find.popup" timestamp="1585102783491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="398" y="109" width="740" height="606" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585102783491" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1586340462920">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586340462920" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register.html.twig</url>
+          <line>2</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/EleveBundle/Form/AbsenceType.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Resources/views/back.html.twig</url>
+          <line>187</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/AppBundle/Entity/User.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

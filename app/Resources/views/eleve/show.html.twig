@@ -1,0 +1,54 @@
+{% extends 'back.html.twig' %}
+
+{% block content %}
+    <center>
+<div class="col-lg-6">
+    <div class="card">
+        <div class="card-header">
+            <strong class="card-title">Voici les données de : {{ eleve.nom }} {{ eleve.prenom }}</strong>
+        </div>
+        <div class="card-body">
+            <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ eleve.id }}</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ eleve.nom }}</td>
+            </tr>
+            <tr>
+                <th>Prenom</th>
+                <td>{{ eleve.prenom }}</td>
+            </tr>
+            <tr>
+                <th>Tel</th>
+                <td>{{ eleve.tel }}</td>
+            </tr>
+            <tr>
+                <th>Emaileleve</th>
+                <td>{{ eleve.emailEleve }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+            <center>
+                <ul style="list-style-type: none;">
+                    <br>
+
+        <li >
+            {{ form_start(delete_form) }}
+            <a href="{{ path('eleve_index') }}" class="btn btn-outline-secondary" >Retour à la liste</a>
+
+            <a href="{{ path('eleve_edit', { 'id': eleve.id }) }}" class="btn btn-outline-warning" >Modifier</a>
+
+
+                <input type="submit" value="Supprimer" class="btn btn-outline-danger">
+            {{ form_end(delete_form) }}
+        </li>
+
+    </ul>
+            </center>
+        </div></div></div></center>
+{% endblock %}
