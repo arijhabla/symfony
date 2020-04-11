@@ -20,6 +20,10 @@ class AppKernel extends Kernel
             new EleveBundle\EleveBundle(),
             new EmploiBundle\EmploiBundle(),
             new RHBundle\RHBundle(),
+            new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
+            new CMEN\GoogleChartsBundle\CMENGoogleChartsBundle(),
+            new Knp\Bundle\SnappyBundle\KnpSnappyBundle(),
+            new Egyg33k\CsvBundle\Egyg33kCsvBundle(),
 
         ];
 
