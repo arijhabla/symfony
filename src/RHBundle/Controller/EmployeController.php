@@ -2,6 +2,7 @@
 
 namespace RHBundle\Controller;
 
+use CMEN\GoogleChartsBundle\GoogleCharts\Charts\PieChart;
 use RHBundle\Entity\Employe;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
@@ -26,8 +27,25 @@ class EmployeController extends Controller
 
         $employes = $em->getRepository('RHBundle:Employe')->findAll();
 
+        $pieChart = new PieChart();
+        $queryx = $em->createQuery("SELECT p.nom ,p.prime FROM RHBundle:Employe p ");
+        $views = $queryx->getResult();
+
+
+        $pieChart->getData()->setArrayToDataTable($views,'nom','prime');
+        $pieChart->getOptions()->setTitle('Courbe Des primes Des Employes');
+        $pieChart->getOptions()->setHeight(500);
+        $pieChart->getOptions()->setWidth(900);
+        $pieChart->getOptions()->getTitleTextStyle()->setBold(true);
+        $pieChart->getOptions()->getTitleTextStyle()->setColor('#009900');
+        $pieChart->getOptions()->getTitleTextStyle()->setItalic(true);
+        $pieChart->getOptions()->getTitleTextStyle()->setFontName('Arial');
+        $pieChart->getOptions()->getTitleTextStyle()->setFontSize(20);
+
         return $this->render('employe/index.html.twig', array(
             'employes' => $employes,
+            'piechart' => $pieChart,
+
         ));
     }
 
@@ -136,6 +154,8 @@ class EmployeController extends Controller
             ->setAction($this->generateUrl('employe_delete', array('id' => $employe->getId())))
             ->setMethod('DELETE')
             ->getForm()
-        ;
+            ;
     }
+
+
 }
