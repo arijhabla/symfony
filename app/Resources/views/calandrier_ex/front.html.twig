@@ -65,33 +65,44 @@
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   <section id="prices">
    <div class="container">
+    <br>
+    <center>
+     <p class="text-3" > Trier par Matiere</p>
+     <form method="POST">
+      <input type="text"  name="status" class="dsX700">
+      <input type="submit" class="dsX701" value="Chercher" style="width: 15%" >
+      <a href="{{ asset('calandrier_ex/front')}}"><input type="button" value="Voir Tous" class="dsX701" style="width: 15%"></a>
+
+     </form>
+
+    </center>
 
     <div class="prices-box">
      <div class="row">
 
       {% for calandrier_ex in calandrier_exes %}
 
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 price-table aos-init aos-animate" data-aos="fade-up">
+       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 price-table aos-init aos-animate" data-aos="fade-up">
 
-       <div class="top-content text-center">
+        <div class="top-content text-center">
 
-        <div class="title">
-         <h3>Id : {{ calandrier_ex.idExamen.id }}</h3>
+         <div class="title">
+          <h3>Id : {{ calandrier_ex.idExamen.id }}</h3>
+         </div>
+
+        </div>
+
+        <div class="bottom-content text-center">
+         <ul class="features-border list-unstyled">
+          <li>Idexamen :{{ calandrier_ex.idMatiere.nomMatiere }}</li>
+          <li>Idmatiere :{{ calandrier_ex.idSalle.id }}</li>
+          <li>Idsalle :{{ calandrier_ex.idClasse.id }}</li>
+          <li>Idclasse :{% if calandrier_ex.dateEx %}{{ calandrier_ex.dateEx|date('Y-m-d') }}{% endif %}</li>
+         </ul>
+
         </div>
 
        </div>
-
-       <div class="bottom-content text-center">
-        <ul class="features-border list-unstyled">
-         <li>Idexamen :{{ calandrier_ex.idMatiere.nomMatiere }}s</li>
-         <li>Idmatiere :{{ calandrier_ex.idSalle.id }}</li>
-         <li>Idsalle :{{ calandrier_ex.idClasse.niveau }}</li>
-         <li>Idclasse :{% if calandrier_ex.dateEx %}{{ calandrier_ex.dateEx|date('Y-m-d') }}{% endif %}</li>
-        </ul>
-
-       </div>
-
-      </div>
 
       {% endfor %}
 
@@ -99,7 +110,7 @@
 
      </div>
     </div>
-
+    <a href="{{ path('calandrier_ex_export') }}"><input type="button" value="Export data" class="dsX701" style="width: 15%"></a>
    </div>
   </section>
  {% endblock %}

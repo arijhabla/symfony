@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4dffee2-e2e2-4e3b-8cf7-31d97b3f9ec1" name="Default" comment="Msgg">
+    <list default="true" id="f4dffee2-e2e2-4e3b-8cf7-31d97b3f9ec1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/front.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Controller/Calandrier_exController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Controller/Calandrier_exController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="codearij" />
+        <entry key="$PROJECT_DIR$" value="dependabot/composer/symfony/phpunit-bridge-3.4.26" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,6 +119,18 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
       <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/jsrouting-bundle" />
+      <path value="$PROJECT_DIR$/vendor/egyg33k/csv-bundle" />
+      <path value="$PROJECT_DIR$/vendor/cmen/google-charts-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy" />
+      <path value="$PROJECT_DIR$/vendor/league/csv" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/vendor/nomaya/social-bundle" />
+      <path value="$PROJECT_DIR$/vendor/adesigns/calendar-bundle" />
+      <path value="$PROJECT_DIR$/vendor/stfalcon/tinymce-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XhwAgx8xOsDEK1OMT65jAA6Avo" />
@@ -331,10 +346,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="398" y="109" width="740" height="606" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585102783491" />
-    <state x="378" y="165" width="672" height="599" key="run.anything.popup" timestamp="1586646727002">
+    <state x="378" y="165" width="672" height="599" key="run.anything.popup" timestamp="1586647641270">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="165" width="672" height="599" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586646727002" />
+    <state x="378" y="165" width="672" height="599" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586647641270" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585409252949" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586521006038">
       <screen x="0" y="0" width="1366" height="728" />
@@ -356,7 +371,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Resources/views/back.html.twig</url>
-          <line>201</line>
+          <line>221</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
