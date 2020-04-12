@@ -20,10 +20,15 @@ class AppKernel extends Kernel
             new EleveBundle\EleveBundle(),
             new EmploiBundle\EmploiBundle(),
             new RHBundle\RHBundle(),
+            new ClubBundle\ClubBundle(),
             new ExamenBundle\ExamenBundle(),
+            new CompBundle\CompBundle(),
+            new Nomaya\SocialBundle\NomayaSocialBundle(),
             new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
             new CMEN\GoogleChartsBundle\CMENGoogleChartsBundle(),
+            new Stfalcon\Bundle\TinymceBundle\StfalconTinymceBundle(),
             new Knp\Bundle\SnappyBundle\KnpSnappyBundle(),
+            new ADesigns\CalendarBundle\ADesignsCalendarBundle(),
             new Egyg33k\CsvBundle\Egyg33kCsvBundle(),
 
 

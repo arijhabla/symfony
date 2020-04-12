@@ -176,7 +176,7 @@ class Calandrier_exController extends Controller
             ->setAction($this->generateUrl('calandrier_ex_delete', array('id' => $calandrier_ex->getId())))
             ->setMethod('DELETE')
             ->getForm()
-            ;
+        ;
     }
 
     /**

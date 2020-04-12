@@ -155,6 +155,6 @@ class AbsenceController extends Controller
             ->setAction($this->generateUrl('absence_delete', array('id' => $absence->getId())))
             ->setMethod('DELETE')
             ->getForm()
-            ;
+        ;
     }
 }

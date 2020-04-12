@@ -3,6 +3,7 @@
 namespace RHBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Condidat
@@ -14,7 +15,12 @@ class Condidat
 {
     /**
      * @var int
-     *
+    @Assert\Range(
+     *      min = 100000000,
+     *      max = 999999999,
+     *      minMessage = "Le Numero de CIN doit composé de 9 chiffres",
+     *      maxMessage = "Le Numero de CIN doit composé de 9 chiffres"
+     * )
      * @ORM\Column(name="cin_condidat", type="integer")
      * @ORM\Id
      */

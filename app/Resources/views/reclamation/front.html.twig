@@ -86,7 +86,11 @@
                                      <li>Nom :{{ reclamation.idEmploye.nom }}</li>
                                      <li>Prenom :{{ reclamation.idEmploye.prenom }}</li>
                                      <li>Titre :{{ reclamation.titre }}</li>
-                                     <li>Contenu :{{ reclamation.contenu }}</li>
+                                     <li>Contenu :{{ tinymce_init({
+                                             theme: {'simple':{'language': app.request.locale, 'height': 100 , 'width' :200 }},
+                                             toolbar: " alignleft aligncenter alignright alignjustify "
+                                         }) }}
+                                         <textarea class="tinymce" >{{ reclamation.contenu }}</textarea></li>
                                  </ul>
 
                              </div>

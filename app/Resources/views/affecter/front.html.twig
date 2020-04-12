@@ -86,8 +86,15 @@
                                      <li>Id : {{  affecter.nomEvenement.nom }}</li>
                                      <li>Club :{{ affecter.nomClub.nom }}</li>
                                      <li>Date :{% if affecter.nomEvenement.date %}{{ affecter.nomEvenement.date|date('Y-m-d') }}{% endif %}</li>
+                                     <li>Place Disponible: {{  affecter.nomEvenement.Capacity }}</li>
+                                     <li>{{ twitterButton() }}<br><br>
+                                         {{ facebookButton() }}
                                  </ul>
-
+                                 {% if affecter.nomEvenement.Capacity > 0 %}
+                                     <a href="{{ path('evenement_participer', { 'id': affecter.nomEvenement.id }) }}"><button type="button" class="btn-price">Participer</button></a>
+                                {% else %}
+                                    <a href="#"><button type="button" class="btn-price" style="background-color: indianred" >Complet</button></a>
+                                 {% endif %}
                              </div>
 
                          </div>

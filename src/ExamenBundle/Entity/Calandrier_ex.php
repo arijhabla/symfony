@@ -53,6 +53,12 @@ class Calandrier_ex
      */
     private $dateEx;
 
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="cln", type="string", length=255)
+     */
+    private $cln='';
 
     /**
      * Get id
@@ -182,5 +188,32 @@ class Calandrier_ex
     public function getDateEx()
     {
         return $this->dateEx;
+    }
+
+
+
+
+    /**
+     * Set cln
+     *
+     * @param string $cln
+     *
+     * @return Calandrier_ex
+     */
+    public function setCln($cln)
+    {
+        $this->cln = $cln;
+
+        return $this;
+    }
+
+    /**
+     * Get cln
+     *
+     * @return string
+     */
+    public function getCln()
+    {
+        return $this->cln;
     }
 }
