@@ -19,7 +19,7 @@ class NoteType extends AbstractType
         $builder
             ->add('idEleve',EntityType::class,array(
                 'class'=>"EleveBundle:Eleve",
-                'choice_label'=>'id',
+                'choice_label'=>'emailEleve',
                 'attr'=>['class'=>'form-control']
             ))
             ->add('idExamen',EntityType::class,array(

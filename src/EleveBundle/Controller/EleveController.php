@@ -142,6 +142,6 @@ class EleveController extends Controller
             ->setAction($this->generateUrl('eleve_delete', array('id' => $eleve->getId())))
             ->setMethod('DELETE')
             ->getForm()
-            ;
+        ;
     }
 }

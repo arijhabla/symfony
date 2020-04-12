@@ -178,4 +178,34 @@ class AffectationController extends Controller
             ->getForm()
         ;
     }
+
+    /**
+     * Lists all affectation entities.
+     *
+     * @Route("/Do/pdf", name="affectation_pdf")
+     * @Method({"GET", "POST"})
+     */
+    public function pdfAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+
+        $affectations = $em->getRepository('EmploiBundle:Affectation')->findAll();
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < 10; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+
+        $this->get('knp_snappy.pdf')->generateFromHtml(
+            $this->renderView(
+                'affectation/pdf.html.twig',
+                array(
+                    'affectations'  => $affectations
+                )
+            ),
+            'C:/pdf/'.$randomString.'.pdf'
+        );
+        die('télécharger avec succès');
+    }
 }

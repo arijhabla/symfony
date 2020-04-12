@@ -46,6 +46,13 @@ class Eleve
     private $tel;
 
     /**
+     * @var int
+     *
+     * @ORM\Column(name="nbr_absence", type="integer")
+     */
+    private $abs=0;
+
+    /**
      * @var string
      *
      * @ORM\Column(name="email_eleve", type="string", length=255)
@@ -201,5 +208,29 @@ class Eleve
     public function getUser()
     {
         return $this->user;
+    }
+
+    /**
+     * Set abs
+     *
+     * @param integer $abs
+     *
+     * @return Eleve
+     */
+    public function setAbs($abs)
+    {
+        $this->abs = $abs;
+
+        return $this;
+    }
+
+    /**
+     * Get abs
+     *
+     * @return integer
+     */
+    public function getAbs()
+    {
+        return $this->abs;
     }
 }

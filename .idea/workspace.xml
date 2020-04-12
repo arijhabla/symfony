@@ -1,11 +1,256 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4dffee2-e2e2-4e3b-8cf7-31d97b3f9ec1" name="Default" comment="">
+    <list default="true" id="f4dffee2-e2e2-4e3b-8cf7-31d97b3f9ec1" name="Default" comment="Msgg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/app/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/absence/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/absence/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/absence/front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/absence/front.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/absence/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/absence/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/absence/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/absence/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/absence/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/absence/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/affectation/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/affectation/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/affectation/front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/affectation/front.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/affectation/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/affectation/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/affectation/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/affectation/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/affectation/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/affectation/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/affecter/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/affecter/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/affecter/front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/affecter/front.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/affecter/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/affecter/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/affecter/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/affecter/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/affecter/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/affecter/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/back.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/back.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/backComp.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/backComp.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/bulletin/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/bulletin/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/bulletin/front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/bulletin/front.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/bulletin/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/bulletin/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/bulletin/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/bulletin/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/bulletin/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/bulletin/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/front.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/calandrier_ex/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/classe/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/classe/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/classe/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/classe/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/classe/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/classe/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/classe/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/classe/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/club/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/club/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/club/front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/club/front.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/club/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/club/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/club/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/club/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/club/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/club/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/condidat/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/condidat/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/condidat/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/condidat/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/condidat/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/condidat/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/condidat/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/condidat/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/conge/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/conge/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/conge/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/conge/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/conge/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/conge/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/conge/salaire.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/conge/salaire.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/conge/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/conge/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/eleve/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/eleve/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/eleve/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/eleve/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/eleve/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/eleve/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/eleve/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/eleve/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/employe/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/employe/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/employe/front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/employe/front.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/employe/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/employe/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/employe/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/employe/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/employe/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/employe/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/evenement/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/evenement/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/evenement/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/evenement/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/evenement/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/evenement/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/evenement/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/evenement/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/examen/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/examen/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/examen/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/examen/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/examen/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/examen/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/examen/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/examen/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/matiere/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/matiere/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/matiere/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/matiere/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/matiere/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/matiere/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/matiere/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/matiere/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/membre/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/membre/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/membre/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/membre/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/membre/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/membre/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/membre/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/membre/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/note/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/note/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/note/front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/note/front.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/note/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/note/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/note/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/note/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/note/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/note/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/paiement/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/paiement/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/paiement/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/paiement/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/paiement/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/paiement/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/paiement/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/paiement/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/reclamation/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/reclamation/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/reclamation/front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/reclamation/front.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/reclamation/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/reclamation/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/reclamation/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/reclamation/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/reclamation/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/reclamation/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/reunion/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/reunion/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/reunion/front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/reunion/front.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/reunion/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/reunion/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/reunion/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/reunion/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/reunion/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/reunion/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/salle/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/salle/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/salle/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/salle/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/salle/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/salle/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/salle/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/salle/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config_test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/src/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/SecuirityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/SecuirityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Form/UserType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Form/UserType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Tests/Controller/SecuirityControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Tests/Controller/SecuirityControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Controller/AbsenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Controller/AbsenceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Controller/BulletinController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Controller/BulletinController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Controller/EleveController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Controller/EleveController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/EleveBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/EleveBundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Entity/Absence.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Entity/Absence.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Entity/Bulletin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Entity/Bulletin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Entity/Eleve.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Entity/Eleve.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Form/AbsenceType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Form/AbsenceType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Form/BulletinType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Form/BulletinType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Form/EleveType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Form/EleveType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Repository/AbsenceRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Repository/AbsenceRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Repository/BulletinRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Repository/BulletinRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Repository/EleveRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Repository/EleveRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Resources/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Tests/Controller/AbsenceControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Tests/Controller/AbsenceControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Tests/Controller/BulletinControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Tests/Controller/BulletinControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Tests/Controller/EleveControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Tests/Controller/EleveControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Controller/AffectationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Controller/AffectationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Controller/ClasseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Controller/ClasseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Controller/MatiereController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Controller/MatiereController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Controller/SalleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Controller/SalleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/EmploiBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/EmploiBundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Entity/Affectation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Entity/Affectation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Entity/Classe.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Entity/Classe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Entity/Matiere.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Entity/Matiere.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Entity/Salle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Entity/Salle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Form/AffectationType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Form/AffectationType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Form/ClasseType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Form/ClasseType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Form/MatiereType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Form/MatiereType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Form/SalleType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Form/SalleType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Repository/AffectationRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Repository/AffectationRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Repository/ClasseRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Repository/ClasseRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Repository/MatiereRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Repository/MatiereRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Repository/SalleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Repository/SalleRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Resources/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Tests/Controller/AffectationControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Tests/Controller/AffectationControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Tests/Controller/ClasseControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Tests/Controller/ClasseControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Tests/Controller/MatiereControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Tests/Controller/MatiereControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmploiBundle/Tests/Controller/SalleControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmploiBundle/Tests/Controller/SalleControllerTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Controller/Calandrier_exController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Controller/Calandrier_exController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Controller/ExamenController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Controller/ExamenController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Controller/NoteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Controller/NoteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Entity/Calandrier_ex.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Entity/Calandrier_ex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Entity/Examen.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Entity/Examen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Entity/Note.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Entity/Note.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/ExamenBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/ExamenBundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Form/ExamenType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Form/ExamenType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Form/NoteType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Form/NoteType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Repository/Calandrier_exRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Repository/Calandrier_exRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Repository/ExamenRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Repository/ExamenRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Repository/NoteRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Repository/NoteRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Resources/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Tests/Controller/Calandrier_exControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Tests/Controller/Calandrier_exControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Tests/Controller/ExamenControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Tests/Controller/ExamenControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamenBundle/Tests/Controller/NoteControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamenBundle/Tests/Controller/NoteControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Controller/CondidatController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Controller/CondidatController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Controller/EmployeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Controller/EmployeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Controller/ReunionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Controller/ReunionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Entity/Condidat.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Entity/Condidat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Entity/Employe.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Entity/Employe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Entity/Reunion.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Entity/Reunion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Form/CondidatType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Form/CondidatType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Form/EmployeType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Form/EmployeType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Form/ReunionType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Form/ReunionType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/RHBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/RHBundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Repository/CondidatRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Repository/CondidatRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Repository/EmployeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Repository/EmployeRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Repository/ReunionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Repository/ReunionRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Resources/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Tests/Controller/CondidatControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Tests/Controller/CondidatControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Tests/Controller/EmployeControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Tests/Controller/EmployeControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RHBundle/Tests/Controller/ReunionControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RHBundle/Tests/Controller/ReunionControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ClubBundle/Controller/DefaultControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ClubBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CompBundle/Controller/DefaultControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CompBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/EleveBundle/Controller/DefaultControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/EleveBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/EmploiBundle/Controller/DefaultControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/EmploiBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ExamenBundle/Controller/DefaultControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ExamenBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/RHBundle/Controller/DefaultControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/RHBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/web/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app_dev.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app_dev.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/lib/chosen/chosen.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/lib/chosen/chosen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/lib/chosen/chosen.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/lib/chosen/chosen.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/lib/datatable/buttons.bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/lib/datatable/buttons.bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/lib/datatable/buttons.dataTables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/lib/datatable/buttons.dataTables.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/lib/vector-map/jqvmap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/lib/vector-map/jqvmap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/icomoon/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/init/chartjs-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/init/chartjs-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/init/datatables-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/init/datatables-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/init/flot-chart-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/init/flot-chart-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/init/fullcalendar-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/init/fullcalendar-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/init/gmap-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/init/gmap-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/init/peitychart-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/init/peitychart-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/init/vector-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/init/vector-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/init/weather-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/init/weather-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/chosen/chosen.jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/chosen/chosen.jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/chosen/chosen.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/chosen/chosen.jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/chosen/chosen.proto.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/chosen/chosen.proto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/chosen/chosen.proto.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/chosen/chosen.proto.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/data-table/buttons.colVis.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/data-table/buttons.colVis.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/data-table/buttons.flash.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/data-table/buttons.flash.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/data-table/buttons.html5.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/data-table/buttons.html5.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/data-table/buttons.print.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/data-table/buttons.print.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/data-table/dataTables.bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/data-table/dataTables.bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/data-table/dataTables.buttons.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/data-table/dataTables.buttons.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/data-table/datatables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/data-table/datatables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/data-table/jquery-1.12.4.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/data-table/jquery-1.12.4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/data-table/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/data-table/jquery.dataTables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/data-table/jszip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/data-table/jszip.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/data-table/pdfmake.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/data-table/pdfmake.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/gmap/gmapApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/gmap/gmapApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/gmap/gmaps.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/gmap/gmaps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/lib/gmap/gmaps.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/lib/gmap/gmaps.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/widgets.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/widgets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsf/Bilbo_400.font.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsf/Bilbo_400.font.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsf/PIE.htc" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsf/PIE.htc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsf/PIE.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsf/PIE.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsf/jquery-1.7.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsf/jquery-1.7.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/robots.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,9 +388,12 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../a" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="settings.editor.splitter.proportion" value="0.2375297" />
@@ -269,6 +517,8 @@
       <workItem from="1585351073408" duration="1070000" />
       <workItem from="1585404118592" duration="5192000" />
       <workItem from="1586208325458" duration="16000" />
+      <workItem from="1586649477275" duration="6439000" />
+      <workItem from="1586656931332" duration="2297000" />
     </task>
     <task id="LOCAL-00001" summary="Msgg">
       <created>1586646862332</created>
@@ -277,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586646862332</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Msgg">
+      <created>1586648559586</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586648559586</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,10 +549,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="684" y="162" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585187014645" />
-    <state x="317" y="0" key="CommitChangelistDialog2" timestamp="1586646859467">
+    <state x="256" y="0" key="CommitChangelistDialog2" timestamp="1586649514660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="317" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586646859467" />
+    <state x="256" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586649514660" />
     <state x="493" y="292" key="ComposerCompositePathDialog" timestamp="1584976836371">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -325,6 +582,10 @@
     </state>
     <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586646783942" />
     <state width="1493" height="154" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585409586190" />
+    <state x="395" y="79" key="MultipleFileMergeDialog" timestamp="1586654055999">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="79" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1586654055999" />
     <state x="558" y="228" key="NewPhpClassDialog" timestamp="1584976561641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -338,10 +599,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="613" y="316" key="SymfonyPathDialog/0.0.1536.824@0.0.1536.824" timestamp="1584976849748" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1586648223546">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1586654026975">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586648223546" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586654026975" />
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1586208326716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -350,10 +611,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="398" y="109" width="740" height="606" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585102783491" />
-    <state x="378" y="165" width="672" height="599" key="run.anything.popup" timestamp="1586647641270">
+    <state x="378" y="165" width="672" height="599" key="run.anything.popup" timestamp="1586656957879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="165" width="672" height="599" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586647641270" />
+    <state x="378" y="165" width="672" height="599" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586656957879" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585409252949" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586521006038">
       <screen x="0" y="0" width="1366" height="728" />
@@ -375,7 +636,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Resources/views/back.html.twig</url>
-          <line>221</line>
+          <line>233</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">

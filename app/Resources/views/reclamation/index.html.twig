@@ -54,7 +54,12 @@
                 <td><a href="{{ path('reclamation_show', { 'id': reclamation.id }) }}">{{ reclamation.id }}</a></td>
                 <td>{{ reclamation.idEmploye.id }}</td>
                 <td>{{ reclamation.titre }}</td>
-                <td>{{ reclamation.contenu }}</td>
+                <td>
+                    {{ tinymce_init({
+                        theme: {'simple':{'language': app.request.locale, 'height': 50 }},
+                        toolbar: " alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
+                       }) }}
+                    <textarea class="tinymce" >{{ reclamation.contenu }}</textarea></td>
                 <td>
                     <ul style="list-style-type: none;">
                         <li>
