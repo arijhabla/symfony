@@ -75,12 +75,19 @@
     </commandsHistory>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="dependabot/composer/symfony/phpunit-bridge-3.4.26" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -362,14 +369,23 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="613" y="316" key="SymfonyPathDialog/0.0.1536.824@0.0.1536.824" timestamp="1584976849748" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1586705567560">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="470" y="83" key="VCS.ChangeListViewerDialog" timestamp="1586711783707">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="470" y="83" key="VCS.ChangeListViewerDialog/0.0.1366.728@0.0.1366.728" timestamp="1586711783707" />
+    <state x="321" y="129" key="Vcs.Push.Dialog.v2" timestamp="1586711751477">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586711751477" />
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586705567560" />
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1586208326716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586208326716" />
+    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586711774665">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586711774665" />
     <state x="398" y="109" width="740" height="606" key="find.popup" timestamp="1585102783491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
