@@ -31,6 +31,8 @@ class Calandrier_exController extends Controller
         ));
     }
 
+
+
     /**
      * Lists all calandrier_ex entities.
      *
@@ -51,6 +53,29 @@ class Calandrier_exController extends Controller
     /**
      * Creates a new calandrier_ex entity.
      *
+     * @Route("/front", name="calandrier_ex_searsh")
+     * @Method({"GET", "POST"})
+     */
+    public function searchAction(Request $request)
+    {
+
+        $em = $this->getDoctrine()->getManager();
+
+        $reparateurs = $em->getRepository('ExamenBundle:Calandrier_ex')->findAll();
+
+        if($request->isMethod("POST"))
+        {
+            $etat = $request->get('status');
+            $reparateurs = $em->getRepository('ExamenBundle:Calandrier_ex')->findBy(array('cln'=>$etat));
+        }
+        return $this->render('calandrier_ex/front.html.twig', array(
+            'calandrier_exes' => $reparateurs,
+        ));
+    }
+
+    /**
+     * Creates a new calandrier_ex entity.
+     *
      * @Route("/new", name="calandrier_ex_new")
      * @Method({"GET", "POST"})
      */
@@ -61,7 +86,10 @@ class Calandrier_exController extends Controller
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+            $pp=$calandrier_ex->getIdMatiere()->getNomMatiere();
+            $calandrier_ex->setCln($pp);
             $em = $this->getDoctrine()->getManager();
+
             $em->persist($calandrier_ex);
             $em->flush();
 
@@ -148,6 +176,31 @@ class Calandrier_exController extends Controller
             ->setAction($this->generateUrl('calandrier_ex_delete', array('id' => $calandrier_ex->getId())))
             ->setMethod('DELETE')
             ->getForm()
-        ;
+            ;
+    }
+
+    /**
+     * Lists all calandrier_ex entities.
+     *
+     * @Route("/do/export", name="calandrier_ex_export")
+     * @Method("GET")
+     */
+
+    public function exportAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $calandrier_exes = $em->getRepository('ExamenBundle:Calandrier_ex')->findAll();
+
+        $writer = $this->container->get('egyg33k.csv.writer');
+        $csv = $writer::createFromFileObject(new \SplTempFileObject());
+
+        $csv->insertOne(['id','id_examen','Matiere','Classe','Salle' ,'date_ex']);
+
+        foreach ($calandrier_exes as $calandrier_ex)
+        {
+            $csv->insertOne([$calandrier_ex->getId(),$calandrier_ex->getIdExamen()->getId(), $calandrier_ex->getIdMatiere()->getNomMatiere(),$calandrier_ex->getIdClasse()->getNiveau(),$calandrier_ex->getIdSalle()->getId(),$calandrier_ex->getDateEx()->format('Y-m-d')]);
+        }
+        $csv->output('calender.csv');
+        die('calandrier_ex_export');
     }
 }

@@ -1,6 +1,10 @@
 {% extends 'back.html.twig' %}
 
   {% block content %}
+      <link rel="stylesheet" href="{{ asset('bundles/adesignscalendar/css/fullcalendar/fullcalendar.css') }}" />
+      <script type="text/javascript" src="{{ asset('bundles/adesignscalendar/js/jquery/jquery-1.8.2.min.js') }}"></script>
+      <script type="text/javascript" src="{{ asset('bundles/adesignscalendar/js/fullcalendar/jquery.fullcalendar.min.js') }}"></script>
+      <script type="text/javascript" src="{{ asset('bundles/adesignscalendar/js/calendar-settings.js') }}"></script>
       <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
       <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
       <script>
@@ -76,79 +80,79 @@
           <div class="animated fadeIn">
               <div class="row">
                   <div class="panel panel-primary filterable">
-                  <div class="col-md-12">
-                      <div class="card">
-                          <div class="card-header">
-                              <div class="panel-heading">
+                      <div class="col-md-12">
+                          <div class="card">
+                              <div class="card-header">
+                                  <div class="panel-heading">
 
-                                  <h4 class="card-title ">Calendriers</h4>
+                                      <h4 class="card-title ">Calendriers</h4>
 
-                                  <div class="pull-right">
-                                      <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filter</button>
+                                      <div class="pull-right">
+                                          <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filter</button>
+                                      </div>
                                   </div>
                               </div>
+                              <div class="card-body">
+                                  <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                                      <thead>
+                                      <tr>
+                                          <th>Id</th>
+                                          <th>Idexamen</th>
+                                          <th>matiere</th>
+                                          <th>Idsalle</th>
+                                          <th>classe</th>
+                                          <th>Dateex</th>
+                                          <th>Actions</th>
+                                      </tr>
+                                      <tr class="filters">
+                                          <th><input type="text" class="form-control" placeholder="#" hidden></th>
+                                          <th><input type="text" class="form-control"  hidden></th>
+                                          <th><input type="text" class="form-control"  hidden></th>
+                                          <th><input type="text" class="form-control"  hidden></th>
+                                          <th><input type="text" class="form-control"  hidden></th>
+                                          <th><input type="text" class="form-control"  hidden></th>
+
+
+
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                      {% for calandrier_ex in calandrier_exes %}
+                                          <tr>
+                                              <td><a href="{{ path('calandrier_ex_show', { 'id': calandrier_ex.id }) }}">{{ calandrier_ex.id }}</a></td>
+                                              <td>{{ calandrier_ex.idExamen.id }}</td>
+                                              <td>{{ calandrier_ex.idMatiere.nomMatiere }}</td>
+                                              <td>{{ calandrier_ex.idSalle.id }}</td>
+                                              <td>{{ calandrier_ex.idClasse.id }}</td>
+                                              <td>{% if calandrier_ex.dateEx %}{{ calandrier_ex.dateEx|date('Y-m-d') }}{% endif %}</td>
+                                              <td>
+                                                  <ul style="list-style-type: none;">
+                                                      <li>
+                                                          <a href="{{ path('calandrier_ex_show', { 'id': calandrier_ex.id }) }}" class="btn btn-primary btn-sm">Consulter</a>
+                                                          <a href="{{ path('calandrier_ex_edit', { 'id': calandrier_ex.id }) }}" class="btn btn-success btn-sm">Modifier</a>
+                                                      </li>
+
+                                                  </ul>
+                                              </td>
+                                          </tr>
+                                      {% endfor %}
+                                      </tbody>
+                                  </table>
+                                  <center>
+                                      <ul style="list-style-type: none;">
+                                          <li>
+                                              <a href="{{ path('calandrier_ex_new') }}" class="btn btn-outline-primary btn-lg btn-block" style="width: 30%">Créer un nouveau calendrier</a>
+                                          </li>
+                                      </ul>
+                                  </center>
+                              </div>
                           </div>
-                          <div class="card-body">
-                              <table id="bootstrap-data-table" class="table table-striped table-bordered">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Idexamen</th>
-                <th>Idmatiere</th>
-                <th>Idsalle</th>
-                <th>Idclasse</th>
-                <th>Dateex</th>
-                <th>Actions</th>
-            </tr>
-            <tr class="filters">
-                <th><input type="text" class="form-control" placeholder="#" hidden></th>
-                <th><input type="text" class="form-control"  hidden></th>
-                <th><input type="text" class="form-control"  hidden></th>
-                <th><input type="text" class="form-control"  hidden></th>
-                <th><input type="text" class="form-control"  hidden></th>
-                <th><input type="text" class="form-control"  hidden></th>
-
-
-
-            </tr>
-        </thead>
-        <tbody>
-        {% for calandrier_ex in calandrier_exes %}
-            <tr>
-                <td><a href="{{ path('calandrier_ex_show', { 'id': calandrier_ex.id }) }}">{{ calandrier_ex.id }}</a></td>
-                <td>{{ calandrier_ex.idExamen.id }}</td>
-                <td>{{ calandrier_ex.idMatiere.nomMatiere }}</td>
-                <td>{{ calandrier_ex.idSalle.id }}</td>
-                <td>{{ calandrier_ex.idClasse.niveau }}</td>
-                <td>{% if calandrier_ex.dateEx %}{{ calandrier_ex.dateEx|date('Y-m-d') }}{% endif %}</td>
-                <td>
-                    <ul style="list-style-type: none;">
-                        <li>
-                            <a href="{{ path('calandrier_ex_show', { 'id': calandrier_ex.id }) }}" class="btn btn-primary btn-sm">Consulter</a>
-                            <a href="{{ path('calandrier_ex_edit', { 'id': calandrier_ex.id }) }}" class="btn btn-success btn-sm">Modifier</a>
-                        </li>
-
-                    </ul>
-                </td>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-    <center>
-        <ul style="list-style-type: none;">
-            <li>
-                <a href="{{ path('calandrier_ex_new') }}" class="btn btn-outline-primary btn-lg btn-block" style="width: 30%">Créer un nouveau calendrier</a>
-            </li>
-        </ul>
-    </center>
-    </div>
-    </div>
-    </div>
-
+                      </div>
+                      <a href="{{ path('calandrier_ex_export') }}">Export data</a>
                   </div>
-    </div>
-    </div><!-- .animated -->
-    </div><!-- .content -->
+              </div>
+          </div><!-- .animated -->
+      </div><!-- .content -->
 
-{% endblock %}
+  {% endblock %}
 
