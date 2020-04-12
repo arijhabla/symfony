@@ -2,10 +2,8 @@ app:
     resource: '@AppBundle/Controller/'
     type: annotation
 
-comp:
-    resource: "@CompBundle/Controller/"
-    type:     annotation
-    prefix:   /
+
+
 
 examen:
     resource: "@ExamenBundle/Controller/"

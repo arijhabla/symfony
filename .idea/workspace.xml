@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4dffee2-e2e2-4e3b-8cf7-31d97b3f9ec1" name="Default" comment="Msgg">
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Composer_10_04_2020_11_01_PM_c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_10_04_2020_11_01_PM_c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_10_04_2020_11_01_PM_s.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_10_04_2020_11_01_PM_s.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/back.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/back.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/employe/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/employe/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +77,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="codearij" />
+        <entry key="$PROJECT_DIR$" value="dependabot/composer/symfony/phpunit-bridge-3.4.26" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,6 +123,15 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
       <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/jsrouting-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy" />
+      <path value="$PROJECT_DIR$/vendor/egyg33k/csv-bundle" />
+      <path value="$PROJECT_DIR$/vendor/cmen/google-charts-bundle" />
+      <path value="$PROJECT_DIR$/vendor/league/csv" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XhwAgx8xOsDEK1OMT65jAA6Avo" />
@@ -128,7 +144,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../a" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -136,17 +152,17 @@
     <property name="settings.editor.splitter.proportion" value="0.2375297" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\moo\src\AppBundle\Resources\views" />
+      <recent name="C:\wamp64\www\test\src\Esprit\TestBundle\Resources\views\Test" />
+      <recent name="C:\wamp64\www\test\src\Esprit\TestBundle\Resources\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\moo\app\Resources\views\reclamation" />
       <recent name="C:\wamp64\www\moo\app\Resources\views\conge" />
       <recent name="C:\wamp64\www\moo\app\Resources\views\reunion" />
       <recent name="C:\wamp64\www\moo\app\Resources\views\employe" />
       <recent name="C:\wamp64\www\moo\app\Resources\views\bulletin" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\moo\src\AppBundle\Resources\views" />
-      <recent name="C:\wamp64\www\test\src\Esprit\TestBundle\Resources\views\Test" />
-      <recent name="C:\wamp64\www\test\src\Esprit\TestBundle\Resources\views" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -199,6 +215,8 @@
       <command value="s doctrine:schema:create" />
       <command value="s doctrine:schema:update --force" />
       <command value="s server:run" />
+      <command value="s server:run symfony" />
+      <command value="s server:run " />
     </option>
   </component>
   <component name="RunManager">
@@ -254,6 +272,9 @@
       <workItem from="1585351073408" duration="1070000" />
       <workItem from="1585404118592" duration="5192000" />
       <workItem from="1586208325458" duration="16000" />
+      <workItem from="1586648858343" duration="303000" />
+      <workItem from="1586649556054" duration="136000" />
+      <workItem from="1586649706717" duration="523000" />
     </task>
     <task id="LOCAL-00001" summary="Msgg">
       <created>1586646862332</created>
@@ -262,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586646862332</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Msgg">
+      <created>1586646977492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586646977492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,52 +305,70 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="684" y="162" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585187014645" />
-    <state x="317" y="0" key="CommitChangelistDialog2" timestamp="1586646859467">
+    <state x="317" y="0" key="CommitChangelistDialog2" timestamp="1586646976031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="317" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586646859467" />
-    <state x="493" y="292" key="ComposerCompositePathDialog" timestamp="1584976836371">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="317" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586646976031" />
+    <state x="438" y="258" key="ComposerCompositePathDialog" timestamp="1586649763276">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="438" y="258" key="ComposerCompositePathDialog/0.0.1366.728@0.0.1366.728" timestamp="1586649763276" />
     <state x="493" y="292" key="ComposerCompositePathDialog/0.0.1536.824@0.0.1536.824" timestamp="1584976836371" />
-    <state x="488" y="148" key="FileChooserDialogImpl" timestamp="1586208334668">
+    <state x="488" y="148" key="FileChooserDialogImpl" timestamp="1586649827669">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="148" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586208334668" />
+    <state x="488" y="148" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586649827669" />
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585408331037" />
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1586646783942">
+    <state x="600" y="259" key="FrameworkEditDialogDimensionKey" timestamp="1586649874221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586646783942" />
+    <state x="600" y="259" key="FrameworkEditDialogDimensionKey/0.0.1366.728@0.0.1366.728" timestamp="1586649874221" />
+    <state x="543" y="277" key="Github.Dialog.Accounts.Choose" timestamp="1586647021504">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="543" y="277" key="Github.Dialog.Accounts.Choose/0.0.1366.728@0.0.1366.728" timestamp="1586647021504" />
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1586650013195">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586650013195" />
     <state width="1493" height="154" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585409586190" />
-    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1586646783942">
+    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1586650013195">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586646783942" />
+    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586650013195" />
     <state width="1493" height="154" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585409586190" />
-    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1586646783942">
+    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1586650013194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586646783942" />
+    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586650013194" />
     <state width="1493" height="154" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585409586190" />
-    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1586646783942">
+    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1586650013195">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586646783942" />
+    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586650013195" />
     <state width="1493" height="154" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585409586190" />
     <state x="558" y="228" key="NewPhpClassDialog" timestamp="1584976561641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="558" y="228" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1584976561641" />
-    <state x="246" y="13" key="SettingsEditor" timestamp="1586646272322">
+    <state x="246" y="13" key="SettingsEditor" timestamp="1586649874910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="246" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586646272322" />
+    <state x="246" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586649874910" />
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584976852281" />
-    <state x="613" y="316" key="SymfonyPathDialog" timestamp="1584976849748">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="545" y="279" key="SymfonyPathDialog" timestamp="1586649776445">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="545" y="279" key="SymfonyPathDialog/0.0.1366.728@0.0.1366.728" timestamp="1586649776445" />
     <state x="613" y="316" key="SymfonyPathDialog/0.0.1536.824@0.0.1536.824" timestamp="1584976849748" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1586647015360">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586647015360" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1586648997379">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586648997379" />
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1586208326716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -331,10 +377,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="398" y="109" width="740" height="606" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585102783491" />
-    <state x="378" y="165" width="672" height="599" key="run.anything.popup" timestamp="1586646727002">
+    <state x="378" y="165" width="672" height="599" key="run.anything.popup" timestamp="1586650013198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="165" width="672" height="599" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586646727002" />
+    <state x="378" y="165" width="672" height="599" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586650013198" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585409252949" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586521006038">
       <screen x="0" y="0" width="1366" height="728" />
@@ -356,7 +402,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Resources/views/back.html.twig</url>
-          <line>201</line>
+          <line>212</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
