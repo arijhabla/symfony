@@ -65,6 +65,18 @@
      <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
      <section id="prices">
+         <br>
+         <br>
+         <div class="grid_12 box-2">
+             {% for ele in eleve %}
+                 {% if ele.abs > 5 %}
+                     <div>
+                         <p class="text-3"> <span> Tu as une convocation de parent </span>!!!</p>
+                     </div>
+                     <br>
+                 {% endif %}
+             {% endfor %}
+         </div>
          <div class="container">
 
              <div class="prices-box">

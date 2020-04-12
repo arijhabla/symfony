@@ -46,6 +46,8 @@ class AbsenceController extends Controller
         if ($form->isSubmitted() && $form->isValid()) {
             $pp=$absence->getNomEleve()->getId();
             $absence->setIde($pp);
+            $total=$absence->getNomEleve()->getAbs() + 1;
+            $absence->getNomEleve()->setAbs($total);
             $em = $this->getDoctrine()->getManager();
             $em->persist($absence);
             $em->flush();
@@ -71,8 +73,11 @@ class AbsenceController extends Controller
         $em = $this->getDoctrine()->getManager();
         $query1 = $em->createQuery('SELECT n FROM EleveBundle:Absence n WHERE n.ide=:Men ')->setParameter(':Men',$input);
         $notes = $query1->getResult();
+        $query2 = $em->createQuery('SELECT n FROM EleveBundle:Eleve n WHERE n.id=:Men ')->setParameter(':Men',$input);
+        $eleve = $query2->getResult();
         return $this->render('absence/front.html.twig', array(
             'absences' => $notes,
+            'eleve' => $eleve,
         ));
     }
 
@@ -150,6 +155,6 @@ class AbsenceController extends Controller
             ->setAction($this->generateUrl('absence_delete', array('id' => $absence->getId())))
             ->setMethod('DELETE')
             ->getForm()
-        ;
+            ;
     }
 }

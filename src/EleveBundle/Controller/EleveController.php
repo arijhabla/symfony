@@ -20,14 +20,24 @@ class EleveController extends Controller
      * @Route("/", name="eleve_index")
      * @Method("GET")
      */
-    public function indexAction()
+    public function indexAction(Request $request)
     {
         $em = $this->getDoctrine()->getManager();
 
         $eleves = $em->getRepository('EleveBundle:Eleve')->findAll();
 
+        /**
+         * @var $paginator \Knp\Component\Pager\Paginator
+         */
+        $paginator = $this->get('knp_paginator');
+        $result = $paginator->paginate(
+            $eleves,
+            $request->query->getInt('page', 1),
+            $request->query->getInt('limit', 1)
+        );
+
         return $this->render('eleve/index.html.twig', array(
-            'eleves' => $eleves,
+            'eleves' => $result,
         ));
     }
 
@@ -132,6 +142,6 @@ class EleveController extends Controller
             ->setAction($this->generateUrl('eleve_delete', array('id' => $eleve->getId())))
             ->setMethod('DELETE')
             ->getForm()
-        ;
+            ;
     }
 }
