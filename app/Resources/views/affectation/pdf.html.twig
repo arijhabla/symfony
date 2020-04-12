@@ -1,0 +1,25 @@
+<table border="1" >
+                                  <thead>
+                                  <tr>
+                                      <th>Id</th>
+                                      <th>Nomclasse</th>
+                                      <th>Dsalle</th>
+                                      <th>Nommat</th>
+                                      <th>Date</th>
+                                      <th>Heure</th>
+                                  </tr>
+                                  </thead>
+                                  <tbody>
+                                  {% for affectation in affectations %}
+                                      <tr>
+                                          <td><a href="{{ path('affectation_show', { 'id': affectation.id }) }}">{{ affectation.id }}</a></td>
+                                          <td>{{ affectation.nomClasse.niveau}}</td>
+                                          <td>{{ affectation.idSalle.id |default('error') }}</td>
+                                          <td>{{ affectation.nomMat.nomMatiere |default('error') }}</td>
+                                          <td>{% if affectation.date %}{{ affectation.date|date('Y-m-d') }}{% endif %}</td>
+                                          <td>{{ affectation.heure }}</td>
+
+                                      </tr>
+                                  {% endfor %}
+                                  </tbody>
+                              </table>
