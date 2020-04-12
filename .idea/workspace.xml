@@ -318,10 +318,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="684" y="162" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585187014645" />
-    <state x="356" y="0" key="CommitChangelistDialog2" timestamp="1586704871867">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="317" y="0" key="CommitChangelistDialog2" timestamp="1586711795585">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="317" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586646859467" />
+    <state x="317" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586711795585" />
     <state x="356" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586704871867" />
     <state x="493" y="292" key="ComposerCompositePathDialog" timestamp="1584976836371">
       <screen x="0" y="0" width="1536" height="824" />
@@ -373,10 +373,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="470" y="83" key="VCS.ChangeListViewerDialog/0.0.1366.728@0.0.1366.728" timestamp="1586711783707" />
-    <state x="321" y="129" key="Vcs.Push.Dialog.v2" timestamp="1586711751477">
+    <state x="321" y="129" key="Vcs.Push.Dialog.v2" timestamp="1586711811597">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586711751477" />
+    <state x="321" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586711811597" />
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586705567560" />
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1586208326716">
       <screen x="0" y="0" width="1366" height="728" />
