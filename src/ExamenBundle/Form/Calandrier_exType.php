@@ -33,7 +33,7 @@ class Calandrier_exType extends AbstractType
             ))
             ->add('idClasse',EntityType::class,array(
                 'class'=>"EmploiBundle:Classe",
-                'choice_label'=>'niveau',
+                'choice_label'=>'id',
                 'attr'=>['class'=>'form-control']
             ))
             ->add('dateEx',DateType::class);

@@ -75,12 +75,23 @@
                 <li class="active">
                     <a href="index.html"><i ></i> </a>
                 </li>
+                <li class="btn btn-info"><a href="{{path('fos_user_security_logout')}}">Se Déconnecter</a></li>
                 <li class="menu-item-has-children dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-cogs"></i>Gestion des élèves </a>
                     <ul class="sub-menu children dropdown-menu">
                         <li><i class="fa fa-id-badge"></i><a href="{{ asset('/eleve') }}">Gestion élève</a></li>
                         <li><i class="fa fa-id-card-o"></i><a href="{{ asset('/bulletin') }}">Gestion bulletin</a></li>
                         <li><i class="fa fa-exclamation-triangle"></i><a href="{{ asset('/absence') }}">Gestion absence</a></li>
+
+                    </ul>
+                </li>
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Gestion d'Emploi</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="fa fa-id-badge"></i><a href="{{ asset('/affectation') }}">Gestion d'Affectation</a></li>
+                        <li><i class="fa fa-id-card-o"></i><a href="{{ asset('/salle') }}">Gestion des Salles</a></li>
+                        <li><i class="fa fa-th"></i><a href="{{ asset('/classe') }}">Gestion des classes</a></li>
+                        <li><i class="fa fa-book"></i><a href="{{ asset('/matiere') }}">Gestion des matieres</a></li>
 
                     </ul>
                 </li>
@@ -94,21 +105,18 @@
                 </li>
 
 
-
                 <li class="menu-item-has-children dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Gestion d'Emploi</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>Gestion des Clubs</a>
                     <ul class="sub-menu children dropdown-menu">
-                        <li><i class="fa fa-id-badge"></i><a href="{{ asset('/affectation') }}">Gestion d'Affectation</a></li>
-                        <li><i class="fa fa-id-card-o"></i><a href="{{ asset('/salle') }}">Gestion des Salles</a></li>
-                        <li><i class="fa fa-th"></i><a href="{{ asset('/classe') }}">Gestion des classes</a></li>
-                        <li><i class="fa fa-book"></i><a href="{{ asset('/matiere') }}">Gestion des matieres</a></li>
+                        <li><i class="menu-icon fa fa-fort-awesome"></i><a href="{{ asset('/club') }}">Gestion des clubs</a></li>
+                        <li><i class="fa fa-id-badge"></i><a href="{{ asset('/membre') }}">Gestion des membres</a></li>
+                        <li><i class="fa fa-fire"></i><a href="{{ asset('/evenement') }}">Gestion des evenements</a></li>
+                        <li><i class="fa fa-th"></i><a href="{{ asset('/affecter') }}">Gestion des Affectations</a></li>
+
+
 
                     </ul>
                 </li>
-
-
-
-
                 <li class="menu-item-has-children dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>Gestion d'Examen</a>
                     <ul class="sub-menu children dropdown-menu">
@@ -118,7 +126,13 @@
                     </ul>
                 </li>
 
+                </li>
+
+
+
+
             </ul>
+
         </div><!-- /.navbar-collapse -->
     </nav>
 </aside>

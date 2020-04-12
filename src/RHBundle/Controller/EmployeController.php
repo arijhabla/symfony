@@ -28,12 +28,12 @@ class EmployeController extends Controller
         $employes = $em->getRepository('RHBundle:Employe')->findAll();
 
         $pieChart = new PieChart();
-        $queryx = $em->createQuery("SELECT p.nom ,p.prime FROM RHBundle:Employe p ");
+        $queryx = $em->createQuery("SELECT p.nom ,p.salaire FROM RHBundle:Employe p ");
         $views = $queryx->getResult();
 
 
-        $pieChart->getData()->setArrayToDataTable($views,'nom','prime');
-        $pieChart->getOptions()->setTitle('Courbe Des primes Des Employes');
+        $pieChart->getData()->setArrayToDataTable($views,'nom','salaire');
+        $pieChart->getOptions()->setTitle('Courbe Des salaires Des Employes');
         $pieChart->getOptions()->setHeight(500);
         $pieChart->getOptions()->setWidth(900);
         $pieChart->getOptions()->getTitleTextStyle()->setBold(true);
@@ -154,7 +154,7 @@ class EmployeController extends Controller
             ->setAction($this->generateUrl('employe_delete', array('id' => $employe->getId())))
             ->setMethod('DELETE')
             ->getForm()
-            ;
+        ;
     }
 
 

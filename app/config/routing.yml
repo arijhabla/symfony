@@ -2,15 +2,20 @@ app:
     resource: '@AppBundle/Controller/'
     type: annotation
 
-
-
+comp:
+    resource: "@CompBundle/Controller/"
+    type:     annotation
+    prefix:   /
 
 examen:
     resource: "@ExamenBundle/Controller/"
     type:     annotation
     prefix:   /
 
-
+club:
+    resource: "@ClubBundle/Controller/"
+    type:     annotation
+    prefix:   /
 
 rh:
     resource: "@RHBundle/Controller/"

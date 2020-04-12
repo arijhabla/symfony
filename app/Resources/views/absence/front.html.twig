@@ -69,12 +69,12 @@
          <br>
          <div class="grid_12 box-2">
              {% for ele in eleve %}
-                 {% if ele.abs > 5 %}
-                     <div>
-                         <p class="text-3"> <span> Tu as une convocation de parent </span>!!!</p>
-                     </div>
-                     <br>
-                 {% endif %}
+{% if ele.abs > 5 %}
+             <div>
+                 <p class="text-3"> <span> Tu as une convocation de parent </span>!!!</p>
+             </div>
+             <br>
+ {% endif %}
              {% endfor %}
          </div>
          <div class="container">

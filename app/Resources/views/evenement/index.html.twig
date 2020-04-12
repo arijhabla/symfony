@@ -43,6 +43,7 @@
             <tr>
                 <th>Id</th>
                 <th>Nom</th>
+                <th>Capacity</th>
                 <th>Date</th>
                 <th>Actions</th>
             </tr>
@@ -52,6 +53,7 @@
             <tr>
                 <td><a href="{{ path('evenement_show', { 'id': evenement.id }) }}">{{ evenement.id }}</a></td>
                 <td>{{ evenement.nom }}</td>
+                <td>{{ evenement.capacity }}</td>
                 <td>{% if evenement.date %}{{ evenement.date|date('Y-m-d') }}{% endif %}</td>
                 <td>
 

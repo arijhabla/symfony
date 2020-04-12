@@ -20,6 +20,10 @@
                 <td>{{ evenement.nom }}</td>
             </tr>
             <tr>
+                <th>Capacity</th>
+                <td>{{ evenement.capacity }}</td>
+            </tr>
+            <tr>
                 <th>Date</th>
                 <td>{% if evenement.date %}{{ evenement.date|date('Y-m-d') }}{% endif %}</td>
             </tr>
