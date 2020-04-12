@@ -1,58 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4dffee2-e2e2-4e3b-8cf7-31d97b3f9ec1" name="Default" comment="commitkhadija">
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/affectation/pdf.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/ClubBundle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Controller/AffecterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Controller/ClubController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Controller/DefaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Controller/EvenementController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Controller/MembreController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Entity/Affecter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Entity/Club.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Entity/Evenement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Entity/Membre.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Form/AffecterType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Form/ClubType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Form/EvenementType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Form/MembreType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Repository/AffecterRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Repository/ClubRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Repository/EvenementRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Repository/MembreRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Resources/config/services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Resources/views/Default/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Tests/Controller/AffecterControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Tests/Controller/ClubControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Tests/Controller/EvenementControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClubBundle/Tests/Controller/MembreControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/CompBundle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Controller/CongeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Controller/DefaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Controller/PaiementController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Controller/ReclamationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Entity/Conge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Entity/Paiement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Entity/Reclamation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Form/CongeType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Form/PaiementType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Form/ReclamationType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Repository/CongeRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Repository/PaiementRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Repository/ReclamationRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Resources/config/services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Resources/views/Default/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Tests/Controller/CongeControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Tests/Controller/PaiementControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompBundle/Tests/Controller/ReclamationControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ClubBundle/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CompBundle/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/EleveBundle/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/EmploiBundle/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ExamenBundle/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/RHBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+    <list default="true" id="f4dffee2-e2e2-4e3b-8cf7-31d97b3f9ec1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Composer_10_04_2020_11_01_PM_c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_10_04_2020_11_01_PM_c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Composer_23_03_2020_16_20_c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_23_03_2020_16_20_c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Composer_29_10_19_23_55_c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_29_10_19_23_55_c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_10_04_2020_11_01_PM_s.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_10_04_2020_11_01_PM_s.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_12_02_20_12_48_s.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_12_02_20_12_48_s.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_23_03_2020_16_20_s.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_23_03_2020_16_20_s.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_29_10_19_23_56_s.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_29_10_19_23_56_s.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,6 +75,12 @@
     </commandsHistory>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="dependabot/composer/symfony/phpunit-bridge-3.4.26" />
@@ -191,7 +153,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../a" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -265,8 +226,8 @@
       <command value="s doctrine:database:drop --force" />
       <command value="s doctrine:database:create" />
       <command value="s doctrine:schema:create" />
-      <command value="s doctrine:schema:update --force" />
       <command value="s server:run" />
+      <command value="s doctrine:schema:update --force" />
     </option>
   </component>
   <component name="RunManager">
@@ -350,18 +311,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Msgg" />
-    <MESSAGE value="commitkhadija" />
-    <option name="LAST_COMMIT_MESSAGE" value="commitkhadija" />
+    <option name="LAST_COMMIT_MESSAGE" value="Msgg" />
   </component>
   <component name="WindowStateProjectService">
     <state x="684" y="162" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585187014645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="684" y="162" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585187014645" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1586707739729">
+    <state x="317" y="0" key="CommitChangelistDialog2" timestamp="1586711795585">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586707739729" />
+    <state x="317" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586711795585" />
     <state x="356" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586704871867" />
     <state x="493" y="292" key="ComposerCompositePathDialog" timestamp="1584976836371">
       <screen x="0" y="0" width="1536" height="824" />
@@ -372,60 +332,68 @@
     </state>
     <state x="488" y="148" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586208334668" />
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585408331037" />
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1586646783942">
+    <state x="603" y="266" key="FrameworkEditDialogDimensionKey" timestamp="1586710693978">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586646783942" />
+    <state x="603" y="266" key="FrameworkEditDialogDimensionKey/0.0.1366.728@0.0.1366.728" timestamp="1586710693978" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1586711093878">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586711093878" />
     <state width="1493" height="154" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585409586190" />
-    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1586646783942">
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1586711093877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586646783942" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586711093877" />
     <state width="1493" height="154" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585409586190" />
-    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1586646783942">
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1586711093877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586646783942" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586711093877" />
     <state width="1493" height="154" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585409586190" />
-    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1586646783942">
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1586711093877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586646783942" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586711093877" />
     <state width="1493" height="154" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585409586190" />
     <state x="558" y="228" key="NewPhpClassDialog" timestamp="1584976561641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="558" y="228" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1584976561641" />
-    <state x="246" y="13" key="SettingsEditor" timestamp="1586646272322">
+    <state x="246" y="13" key="SettingsEditor" timestamp="1586710696494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="246" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586646272322" />
+    <state x="246" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586710696494" />
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584976852281" />
     <state x="613" y="316" key="SymfonyPathDialog" timestamp="1584976849748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="613" y="316" key="SymfonyPathDialog/0.0.1536.824@0.0.1536.824" timestamp="1584976849748" />
-    <state x="321" y="129" key="Vcs.Push.Dialog.v2" timestamp="1586707540224">
+    <state x="470" y="83" key="VCS.ChangeListViewerDialog" timestamp="1586711783707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586707540224" />
+    <state x="470" y="83" key="VCS.ChangeListViewerDialog/0.0.1366.728@0.0.1366.728" timestamp="1586711783707" />
+    <state x="321" y="129" key="Vcs.Push.Dialog.v2" timestamp="1586711811597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586711811597" />
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586705567560" />
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1586208326716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586208326716" />
-    <state x="494" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586706536133">
+    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586711774665">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="494" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586706536133" />
+    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586711774665" />
     <state x="398" y="109" width="740" height="606" key="find.popup" timestamp="1585102783491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="398" y="109" width="740" height="606" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585102783491" />
-    <state x="378" y="165" width="672" height="599" key="run.anything.popup" timestamp="1586647641270">
+    <state x="378" y="165" width="672" height="599" key="run.anything.popup" timestamp="1586711086659">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="165" width="672" height="599" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586647641270" />
+    <state x="378" y="165" width="672" height="599" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586711086659" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585409252949" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586521006038">
       <screen x="0" y="0" width="1366" height="728" />
